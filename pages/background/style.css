@@ -1,0 +1,9 @@
+body {
+  background-color: teal;
+  background-image:
+    url("https://www.bing.com/th?id=OIP.reUmAuPrKnTI0W2ZnUiCEQHaEK&w=286&h=160&c=8&rs=1&qlt=90&pid=3.1&rm=2");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /*background-position: 50% 50%;*/
+}

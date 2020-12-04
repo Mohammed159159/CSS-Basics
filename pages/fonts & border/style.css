@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&family=Roboto:wght@100&display=swap');
+
+/*Use the generic family first then the font family*/
+
+/*em: multiply the value by the initial font size value (16px) of the biggest child
+  rem: multiply the value by the initial font size of the the root element (ex: body, head)
+  %: multiply the value by the initial font size value (16px) of the biggest child
+  vw: multiply the value by the width of the screen
+  vh: multiply the value by the height of the screen
+  */
+
+* {
+    background-color: whitesmoke;
+}
+h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    font-family: "Roboto";
+    font-weight: lighter;
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+    border: 2px solid turquoise;
+    background-color: teal;
+}
+
+p{
+    font-family: Goldman;
+    font-weight: lighter;
+    color: rgba(0, 102, 255, 0.993);
+    font-size: large;
+}
+h2, h3{
+    font-family: "Roboto";
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 0px;
+    color: rgb(0, 183, 255);
+}
+input, button{
+    font-family: "Goldman";
+    padding: 1%;
+    background-color: rgb(0, 98, 128);
+    color: white;
+    border-color: purple;
+    border-width: 2px;
+    border-style: dotted;
+    border-radius: 20px;
+}
+ul{
+    font-family: "Goldman";
+}

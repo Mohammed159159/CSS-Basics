@@ -1,0 +1,10 @@
+figure{
+    float: right;
+}
+.left-item{
+    width: 500px;
+    float: left;
+}
+.clear{
+    clear: both;
+}
