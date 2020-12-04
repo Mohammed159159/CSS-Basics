@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@media (max-width: 767px) {
+    h1{
+        background-color: red;
+    }
+    
+    .images img{
+        width: 100%;
+    }
+}
+
+@media (min-width: 767px) {
+    h1{
+        background-color: green;
+    }
+    .images img{
+        float: left;
+        width: 25%;
+    }
+}

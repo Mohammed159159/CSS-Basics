@@ -1,0 +1,154 @@
+h1{
+    display: block;
+}
+        /*PARENT FLEX*/
+
+/*flex & inline*/
+.container{
+    margin: 50px auto;
+    background-color: grey;
+    width: 800px;
+    display: inline-flex;
+}
+
+.container div{
+    background-color: blue;
+    width: 200px;
+    padding: 10px;
+}
+
+.text{
+    display: inline-block;
+}
+
+.margin{
+    margin: 100px 0px;
+}
+
+
+/*flex dicrection*/
+
+.container2{
+    margin: 50px auto;
+    background-color: grey;
+    width: 800px;
+    display: inline-flex;
+    flex-direction: row-reverse;     /*column-reverse*/
+}
+
+.container2 div{
+    background-color: blue;
+    width: 200px;
+    padding:10px;
+}
+
+.text2{
+    display: inline-block;
+}
+
+/*flex wrap*/
+.container3{
+    margin: 50px auto;
+    background-color: grey;
+    width: 800px;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.container3 div{
+    background-color: blue;
+    width: 200px;
+    padding:10px;
+}
+
+.text3{
+    display: inline-block;
+}
+
+/*flex flow*/
+.container4{
+    margin: 50px auto;
+    background-color: grey;
+    width: 800px;
+    display: inline-flex;
+    flex-flow: wrap column-reverse;
+}
+
+.container4 div{
+    background-color: blue;
+    width: 200px;
+    padding:10px;
+}
+
+.text4{
+    display: inline-block;
+}
+
+/*justify content*/
+.container5{
+    margin: 50px auto;
+    background-color: grey;
+    width: 800px;
+    display: inline-block;
+    justify-content: space-around; /*left, right, center flex-start, flex-end, space-between, space-around*/
+}
+
+.container5 div{
+    background-color: blue;
+    width: 200px;
+    padding:10px;
+}
+
+.text5{
+    display: inline-block;
+}
+
+/*align*/
+.container6{
+    margin: 50px auto;
+    background-color: grey;
+    width: 800px;
+    display: inline-flex;
+    align-content: center; /*align-items: */;
+}
+
+.container6 div{
+    background-color: blue;
+    width: 200px;
+    padding:10px;
+}
+
+.text6{
+    display: inline-block;
+}
+
+
+
+            /*CHILD FLEX*/
+.container7{
+margin: 50px auto;
+background-color: grey;
+width: 800px;
+display: inline-flex;
+}
+                
+.container7 div{
+background-color: blue;
+width: 200px;
+padding:10px;
+}
+
+.d1{
+    flex-grow: 2;
+}
+
+.d2{
+    order: 2;
+    flex-shrink: 5;
+}
+                
+.text7{
+display: inline-block;
+}
+            
